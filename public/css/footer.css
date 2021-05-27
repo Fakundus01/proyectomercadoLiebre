@@ -1,0 +1,29 @@
+/*******FOOTER*******/
+footer{
+    text-align: center;
+}
+
+footer div{
+    line-height: 25px;
+    color: #666;
+    padding: 0px 5px;
+}
+
+footer h3{
+    margin: 10px 0 0 0;
+}
+
+footer .iconos{
+    font-size: 2em;
+    color:#1259c3;
+    padding: 10px 0px;
+    transition: color 500ms;
+}
+.iconos:hover{
+    color: #03264C;
+}
+
+.copy{
+    padding: 25px 10px;
+    text-align: justify ;
+}

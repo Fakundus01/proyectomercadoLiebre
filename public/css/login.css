@@ -1,0 +1,188 @@
+/*************************BODY***************************/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color: #fff;
+}
+/*************************HEADER***************************/
+.main-header{
+    background-color: #EAC926;;
+    font-size: 12px;
+}
+.logo{
+    width: 100%;
+    padding:10px 20px;
+    display: flex;
+    animation: aumentar linear 1000ms  infinite alternate;
+}
+@keyframes aumentar {
+    0%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+.input1{
+    border-radius: 8px;
+    width: 25vw;
+    padding: 10px;
+    border: solid 1px #ebebeb;
+}
+.copy-header{
+    padding:10px 20px;
+    font-weight: 400;
+}
+.separacion{
+    margin-bottom: 10px ;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 15px;
+}
+.burger-menu{
+    display: block;
+    background-color: #1259c3;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 5px;
+    max-width: 50px;
+    font-size: 18px;
+    margin: auto;    
+    
+}
+/************************MAIN*****************************/
+main{
+    padding-top: 5vh;
+}
+.login{
+    text-align: center;
+    font-family: 'Knewave', cursive;
+}
+.form{
+    text-align: center;
+    
+}
+.input2{
+    width: 50vw;
+    padding: 5px 10px;
+    background-color: white;
+    margin: 10px;
+    border:  solid 1px #ebebeb;
+    border-radius: 5px;
+    color:  #666;
+}
+header{
+    width: 100vw;
+}
+.button{
+    width: 10%;
+    padding: 5px;
+    background-color: #1259c3;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: solid 1px;
+    margin:10px;
+    transition: all 500ms;
+}
+.button:hover{
+background-color: #0022AA;
+}
+/*************************FOOTER***************************/
+footer{
+    text-align: center;
+    padding-top: 5vh;
+}
+
+footer div{
+    line-height: 25px;
+    color: #666;
+    padding: 0px 5px;
+}
+
+footer h3{
+    margin: 10px 0 0 0;
+}
+
+footer .iconos{
+    font-size: 2em;
+    color:#1259c3;
+    padding: 10px 0px;
+    transition: color 500ms;
+}
+.iconos:hover{
+    color: #03264C;
+}
+
+.copy{
+    padding: 25px 10px;
+    text-align: justify ;
+}
+@media(min-width:0px){
+    .navbar{
+        display: none;
+    }
+   .box-top{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+.logo{
+    width: 200px;
+}
+}
+@media(min-width:361px){
+.navbar{
+    display: block;
+}
+.aclaracion{
+    text-align: center;
+}
+.burger-menu{
+    display: none;
+}
+}
+
+@media(min-width:769px){
+    .header-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center ;
+    }
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    }
+    .navbar ul{
+        display: flex;
+    }
+    .navbar li{
+        margin: 5px 15px;
+    }  
+}
+
+
+
+@media(min-width:992px){
+footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+}
+
+
+@media(min-width:1200px){
+}

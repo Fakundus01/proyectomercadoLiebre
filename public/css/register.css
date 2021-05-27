@@ -1,0 +1,174 @@
+/*********************************BODY********************************************/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color: white;
+    padding-top: 10vh;
+}
+
+/*********************************MAIN********************************************/
+
+main{
+    padding-top: 10vh;
+}
+
+h1{
+    text-align: center;
+    font-family:'Knewave',"cursive";
+    padding-bottom: 3vh;
+}
+.form{  
+    border: black solid 0;
+}
+
+.legend{
+    display: none;
+}
+
+.input:hover{
+    border: gold solid 5px;
+}
+
+.button1,
+.button2{
+        width: 10%;
+        padding: 5px;
+        background-color: #1259c3;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+        border: solid 1px;
+        margin:10px;
+        transition: all 500ms;
+    }
+
+.button1:hover{
+    background-color: green;
+}
+
+.button2:hover{
+    background-color: red;
+}
+
+.text{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.caja{
+    border-radius: 8px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: start
+}
+.input2{
+    padding: 5px 10px;
+    margin: 10px;
+    border: solid 1px #ebebeb;
+    border-radius: 5px;
+    color:  #666;
+}
+.input1{
+    border-radius: 8px;
+    width: 25vw;
+    padding:  5px   10px;
+    margin: 10px;
+    border: solid 1px black ;
+    color: #666;
+}
+
+/*********************************@MEDIA********************************************/
+
+@media(min-width:0px){
+    .navbar{
+        display: none;
+    }
+   .header-top{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+   .banner{
+    top: 19vh;
+}
+
+main{
+    padding-top: 20vh;
+}
+
+.button2,
+.button1{
+    width: 50vw;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+}
+
+@media(min-width:361px){
+.navbar{
+    display: block;
+}
+.aclaracion{
+    text-align: center;
+}
+.burger-menu{
+    opacity: 0;
+}
+.form{
+    display: block;
+}
+.header-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner{
+    top: 38vh;
+}
+
+main{
+    padding-top: 45vh;
+}
+}
+@media(min-width:769px){
+    .header-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center ;
+    }
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    }
+    .navbar ul{
+        display: flex;
+    }
+    .navbar li{
+        margin: 5px 15px;
+    }  
+    main{
+        padding-top: 5vh;
+    }
+    .button1,
+    .button2{
+        width: 10vw;
+    }
+}
+
+@media(min-width:992px){
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
