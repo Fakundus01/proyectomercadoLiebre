@@ -6,33 +6,3 @@ Gris claro: #ebebeb;
 Verde: #39b54a;
 #0022AA.
 
-<label for="check-menu" id="menu"><i class="fas fa-bars fa-1x"></i></label>
-            <input type="checkbox" id="check-menu">
-label#menu{
-    box-sizing: border-box;
-    display: inline-block;
-    border-radius: 4px;
-    text-align: center;
-    user-select: none;
-    background-color:#1259c3;;
-    color: white;
-    margin: 5px;
-    padding: 8px;
-  }
-#check-menu{
-      display: none;
-  }
-  <section class="productos-destacados">
-            <h2 class="destacados">PRODUCTOS DESTACADOS</h2>
-            <div class="grid-destacados">
-                <article class="producto">
-                    <h3>Alimento Eukanuba</h3>
-                    <img src="../img/eukanuba-puppi.png">
-                    <div class="detalle-producto">
-                        <p>Alimento eukanuba para cachorros raza pequeña 3kg</p>
-                        <p>$1350</p>
-                        <form id="agregar-carrito" action="/productCart" method="GET">
-                            <button id="button-agregar" type="submit">Agregar al carrito</button>
-                        </form>
-                    </div>
-                </article>

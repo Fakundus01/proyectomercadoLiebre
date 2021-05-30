@@ -4,14 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="header.css">
+    <title>Burger-menu</title>
 </head>
 <body>
     <form action="/" method="GET">
-        <fieldset>
+  
         <legend>Burguer-Menu</legend>  
         <a href="http://localhost:3000"><button type="submit">Enviar</button></a>
-        </fieldset>
+        
+        <nav class="navbar">
+
+            <ul class="navbar-left">
+              <li><a href="/ofertas">Ofertas</a></li>
+              <li><a href="#">Tiendas Oficiales</a></li>
+              <li><a href="#">Vender</a></li>
+              <li><a href="#" class="separacion">Ayuda</a></li>
+            </ul>
+          
+            <ul class="navbar-rigth">
+              <li><a href="http://localhost:3000/register">Creá tu cuenta<i class="far fa-address-card"></i></a></li>
+              <li><a href="http://localhost:3000/login">Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
+              <li><a href="http://localhost:3000/misCompras">Mis compras<i class="fas fa-shopping-basket"></i></a></li>  
+            </ul>
+            
+          </nav>
+     
     </form>
     </body>
     </html>

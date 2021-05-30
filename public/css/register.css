@@ -93,9 +93,6 @@ h1{
        justify-content: space-between;
        align-items: center;
    }
-   .banner{
-    top: 19vh;
-}
 
 main{
     padding-top: 20vh;
@@ -132,10 +129,6 @@ main{
     justify-content: space-between;
     align-items: center;
 }
-.banner{
-    top: 38vh;
-}
-
 main{
     padding-top: 45vh;
 }
