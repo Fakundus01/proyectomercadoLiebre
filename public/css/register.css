@@ -20,6 +20,7 @@ h1{
     text-align: center;
     font-family:'Knewave',"cursive";
     padding-bottom: 3vh;
+    transition: all 500ms;
 }
 .form{  
     border: black solid 0;
@@ -66,6 +67,7 @@ h1{
     margin: auto;
     text-align: start
 }
+
 .input2{
     padding: 5px 10px;
     margin: 10px;
@@ -73,6 +75,7 @@ h1{
     border-radius: 5px;
     color:  #666;
 }
+
 .input1{
     border-radius: 8px;
     width: 25vw;
@@ -81,7 +84,10 @@ h1{
     border: solid 1px black ;
     color: #666;
 }
-
+    
+h1:hover{
+        color: #EAC926;
+    }
 /*********************************@MEDIA********************************************/
 
 @media(min-width:0px){
@@ -89,9 +95,7 @@ h1{
         display: none;
     }
    .header-top{
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
+       display: block
    }
 
 main{
@@ -107,6 +111,9 @@ main{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+footer{
+  padding-top: 50px;
 }
 }
 
@@ -150,7 +157,7 @@ main{
         margin: 5px 15px;
     }  
     main{
-        padding-top: 5vh;
+        padding-top: 18vh;
     }
     .button1,
     .button2{

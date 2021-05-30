@@ -7,6 +7,7 @@
 body{
     font-family: 'Roboto',sans-serif;
     background-color: #fff;
+    max-height: 530px;
 }
 /*************************HEADER***************************/
 .main-header{
@@ -69,6 +70,7 @@ main{
 .login{
     text-align: center;
     font-family: 'Knewave', cursive;
+    transition: all 500ms;
 }
 .form{
     text-align: center;
@@ -100,6 +102,10 @@ header{
 .button:hover{
 background-color: #0022AA;
 }
+    
+.login:hover{
+        color: #EAC926;
+    }
 /*************************FOOTER***************************/
 footer{
     text-align: center;
@@ -130,6 +136,9 @@ footer .iconos{
     padding: 25px 10px;
     text-align: justify ;
 }
+
+/********************************MEDIA************************************/
+
 @media(min-width:0px){
     .navbar{
         display: none;
@@ -142,6 +151,9 @@ footer .iconos{
 .logo{
     width: 200px;
 }
+main{
+    padding-top: 25vh;
+}
 }
 @media(min-width:361px){
 .navbar{
@@ -153,26 +165,31 @@ footer .iconos{
 .burger-menu{
     display: none;
 }
+main{
+    padding-top: 50vh;
+}
 }
 
 @media(min-width:769px){
-    .header-top{
+.header-top{
         display: flex;
         justify-content: space-between;
         align-items: center ;
     }
-    .navbar {
+.navbar {
     display: flex;
     justify-content: space-between;
     }
-    .navbar ul{
+.navbar ul{
         display: flex;
     }
-    .navbar li{
+.navbar li{
         margin: 5px 15px;
-    }  
+    }
+main{
+    padding-top: 30vh;
 }
-
+}
 
 
 @media(min-width:992px){
