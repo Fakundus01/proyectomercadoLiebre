@@ -10,7 +10,7 @@ app.use(express.static(path.resolve(__dirname,"./public")));
 
 app.set("port",process.env.PORT || 3000)
 
-app.listen(app.get("port"),() => console.log("Server Start"))
+app.listen(app.get("port"),() => console.log("Server Start in http://localhost:3000"))
 
 app.get("/",(req,res)=> res.sendFile(path.join(__dirname,"views","home.html")))
 
