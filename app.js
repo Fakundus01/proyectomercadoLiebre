@@ -8,7 +8,9 @@ const app=express();
 
 app.use(express.static(path.resolve(__dirname,"./public")));
 
-app.listen(process.env.PORT || 3000,()=>console.log("Server Start in https://proyectomercadoliebre.herokuapp.com/"));
+app.set("port",process.env.PORT || 3000)
+
+app.listen(app.get("port"),() => console.log("Server Start"))
 
 app.get("/",(req,res)=> res.sendFile(path.join(__dirname,"views","home.html")))
 
