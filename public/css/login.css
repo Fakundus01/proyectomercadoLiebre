@@ -9,60 +9,7 @@ body{
     background-color: #fff;
     max-height: 530px;
 }
-/*************************HEADER***************************/
-.main-header{
-    background-color: #EAC926;;
-    font-size: 12px;
-}
-.logo{
-    width: 100%;
-    padding:10px 20px;
-    display: flex;
-    animation: aumentar linear 1000ms  infinite alternate;
-}
-@keyframes aumentar {
-    0%{
-        transform: scale(0.8);
-    }
-    100%{
-        transform: scale(1.1);
-    }
-}
-.input1{
-    border-radius: 8px;
-    width: 25vw;
-    padding: 10px;
-    border: solid 1px #ebebeb;
-}
-.copy-header{
-    padding:10px 20px;
-    font-weight: 400;
-}
-.separacion{
-    margin-bottom: 10px ;
-}
-.navbar ul{
-    list-style: none;
-}
-.navbar a{
-    text-decoration: none;
-    color: #222222;
-    display: inline-block;
-    padding: 5px 0;
-    font-size: 15px;
-}
-.burger-menu{
-    display: block;
-    background-color: #1259c3;
-    color: #ffffff;
-    text-align: center;
-    padding: 5px 0px;
-    border-radius: 5px;
-    max-width: 50px;
-    font-size: 18px;
-    margin: auto;    
-    
-}
+
 /************************MAIN*****************************/
 main{
     padding-top: 5vh;
@@ -167,6 +114,9 @@ main{
 }
 main{
     padding-top: 50vh;
+}
+.burger-menu{
+    opacity: 0;
 }
 }
 
